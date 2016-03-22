@@ -1,0 +1,24 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+t=[]
+x=[]
+v=40
+dt=0.2
+end_t=10
+t.append(0.0)
+x.append(0.0)
+
+for i in range (int(end_t/dt+1)):
+    sx=x[i]+v*dt
+    t.append(dt*(i+1))
+    x.append(sx)
+    print t[i],x[i]
+
+plt.title('Problem 1.2')
+plt.xlabel('Time/s')
+plt.ylabel('Displacement/m')
+plt.plot(t,x)
+plt.xlim(0,10)
+plt.xticks(np.arange(0,10,1))
+plt.show()

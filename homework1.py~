@@ -22,7 +22,7 @@ print var6
 '''
 
 for i in var:
-    print i
+    print var
 
 print var
 
