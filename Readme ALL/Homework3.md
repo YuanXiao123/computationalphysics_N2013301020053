@@ -7,7 +7,8 @@
  *  L1：在屏幕上用字符拼出自己姓名的英文
 
 ## 正文
-*   computationalphysics_N2013301020053/homework3.py 
+* L1代码位置 
+ * [Level 1](https://github.com/YuanXiao123/computationalphysics_N2013301020053/blob/master/homework3.py)
 
 ##结论
 *  输出可得到“YUAN XIAO”效果
