@@ -10,8 +10,10 @@ N=[]
 t=[]
 N.append(sta)
 t.append(0.0)
+N.append(sta)
+t.append(0.0)
 
-for i in range(int(end_t/dt)):
+for i in range(int(end_t/dt+1)):
     sN=N[i]+(a*N[i]-b*N[i]**2)*dt
     t.append(dt*(i+1))
     N.append(sN)
